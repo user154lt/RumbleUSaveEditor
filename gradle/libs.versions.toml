@@ -1,0 +1,7 @@
+[versions]
+swing-coroutines = "1.10.0"
+flatlaf = "3.5.4"
+
+[libraries]
+kotlinx-coroutines = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "swing-coroutines"}
+formdev-flatlaf = { group = "com.formdev", name = "flatlaf", version.ref = "flatlaf"}
