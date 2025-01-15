@@ -14,15 +14,6 @@ class ApplicationViewModel {
     private val _applicationUIState = MutableStateFlow( ApplicationUIState() )
     val applicationUIState: StateFlow<ApplicationUIState> = _applicationUIState.asStateFlow()
 
-    fun showEditWindow(isShowing: Boolean) =
-        CoroutineScope(Dispatchers.Main).launch{
-            _applicationUIState.update {
-                it.copy(
-                    isEditWindowShowing = isShowing
-                )
-            }
-        }
-
     fun openEditWindowWith(pokemon: Pokemon) =
         CoroutineScope(Dispatchers.Main).launch{
             _applicationUIState.update {
