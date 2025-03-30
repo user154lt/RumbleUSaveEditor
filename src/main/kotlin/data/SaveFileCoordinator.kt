@@ -300,7 +300,7 @@ class DefaultSaveFileCoordinator : SaveFileCoordinator {
 
     private fun compress(boxData: ByteArray): ByteArray {
         val deflater = Deflater(BEST_COMPRESSION)
-        val result = ByteArray(2048)
+        val result = ByteArray(4084)
         deflater.setInput(boxData)
         deflater.finish()
         val size = deflater.deflate(result)
