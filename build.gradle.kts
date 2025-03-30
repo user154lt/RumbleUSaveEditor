@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "org.user154.rumbleusave"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -32,7 +32,7 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "RumbleUSaveEditor"
-            packageVersion = "1.0.0"
+            packageVersion = "1.0.1"
             windows {
                 iconFile.set(project.file("src/main/resources/icon.ico"))
             }
