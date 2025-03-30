@@ -14,9 +14,9 @@ repo and building on a 32-bit machine.
 
 Please backup your save before using this (or any) save editor!
 
-![screenshot](https://imgur.com/tDnWM5s)
+![screenshot](https://imgur.com/tDnWM5s.png)
 
-![screenshot](https://imgur.com/f2RqqKo)
+![screenshot](https://imgur.com/f2RqqKo.png)
 
 The compressed save files follow the same structure as the save files for Pokémon Rumble world 
 as documented [here](https://gbatemp.net/threads/pokemon-rumble-world-diamonds-p-tool.386526/) by 
